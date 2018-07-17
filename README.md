@@ -1,6 +1,6 @@
 # tic-tac-toe
 
-This is a **tic-tac-toe game**, programmed in Ruby (OOP), using 4 classes.
+This is a **tic-tac-toe game** challenge, programmed in Ruby (OOP), using 4 classes.
 
 ## Classes
 + BoardCase
@@ -19,4 +19,4 @@ $ ruby player.rb
 + Nico Bertin
 + Ludo Bourgoin
 
-OOP Ruby challenge from [The Hacking Project](https://www.thehackingproject.org/).
+From [The Hacking Project](https://www.thehackingproject.org/).
