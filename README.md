@@ -1,24 +1,22 @@
 # tic-tac-toe
 
-Ceci est un jeu du morpion, programmé en ruby (POO).
+This is a tic-tac-toe game, programmed in Ruby (OOP), using 4 classes.
 
 ## Classes
-4 classes ont été créées:
 + BoardCase
 + Board
 + Player
 + Game
 
-## Comment lancer le jeu
-Exécuter dans le terminal:
+## How to launch the game
+Execute:
 ```
 $ ruby player.rb
 ```
-
-## Author
-Team Grenoble:
+## Authors
+Team Grenoble, THP Session 5:
 + Tom Ballu
 + Nico Bertin
 + Ludo Bourgoin
 
-Exercice de [The Hacking Project](https://www.thehackingproject.org/).
+OOP Ruby challenge from [The Hacking Project](https://www.thehackingproject.org/).
