@@ -9,7 +9,7 @@ Ceci est un jeu du morpion, programmé en ruby (POO).
 + Player
 + Game
 
-## Comment installer
+## Comment lancer le jeu
 Exécuter dans le terminal:
 ```
 $ ruby player.rb
