@@ -13,7 +13,7 @@ class Player
     puts "Player 1: what's your name ?"
     @name = gets.chomp
     while !%w(X O).include?(@symbol) do
-      puts "Choose a symbol (X or O)"
+      puts "Choose a symbol (X or O)" # Demander tant qu'on n'a pas un "X" ou un "O"
       @symbol = gets.chomp.to_s.upcase
     end
     puts "player 1 symbol: #{@symbol}"
@@ -21,7 +21,7 @@ class Player
       else
       puts "Player 2: what's your name ?"
       @name = gets.chomp
-      @symbol = (%w(X O) - @@symbols)[0]
+      @symbol = (%w(X O) - @@symbols)[0] # Attribution du symbole restant au joueur 2
       puts "player 2 symbol: #{@symbol}"
     end
   end

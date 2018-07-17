@@ -11,8 +11,7 @@ class Game
   end
 
   def go
-    puts "Rules, enjoy!"
-    puts "here is your board, just choose your case and win!"
+    puts "Here are the rules: to add your symbol into a case, just slect its number!"
     puts "-------------"
     puts "| 1 | 2 | 3 |"
     puts "|-----------|"
@@ -26,7 +25,7 @@ class Game
     rand = rand(0..1)
     @board.display
     while !@board.victory?(a[rand].played_cases, a[rand]) do
-      turn(a.rotate![rand])
+      turn(a.rotate![rand]) # on change de joueur tant qu'il n'y a pas de victoire
     end
   end
 
@@ -34,7 +33,7 @@ class Game
     puts "A toi #{player.name}!"
     input = gets.chomp.to_i
     while !@free_cases.include?(input)
-      puts "Essaye encore!"
+      puts "Essaye encore!" # on accepte de jouer que dans les cases vides
       input = gets.chomp.to_i
     end
     @free_cases -= [input]
