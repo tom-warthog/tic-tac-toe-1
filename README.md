@@ -16,7 +16,9 @@ $ ruby player.rb
 ```
 
 ## Author
-Team Grenoble, [THP](https://www.thehackingproject.org/) Session 5 :
-+ Tom Ballu,
-+ Nico Bertin,
-+ Ludo Bourgoin.
+Team Grenoble:
++ Tom Ballu
++ Nico Bertin
++ Ludo Bourgoin
+
+Exercice de [The Hacking Project](https://www.thehackingproject.org/).
