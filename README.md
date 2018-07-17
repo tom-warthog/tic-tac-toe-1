@@ -1,6 +1,6 @@
 # tic-tac-toe
 
-This is a tic-tac-toe game, programmed in Ruby (OOP), using 4 classes.
+This is a **tic-tac-toe game**, programmed in Ruby (OOP), using 4 classes.
 
 ## Classes
 + BoardCase
@@ -14,7 +14,7 @@ Execute:
 $ ruby player.rb
 ```
 ## Authors
-Team Grenoble, THP Session 5:
+*Team Grenoble*, THP Session 5:
 + Tom Ballu
 + Nico Bertin
 + Ludo Bourgoin
